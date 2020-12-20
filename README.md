@@ -1,7 +1,5 @@
 # AI_course
 
-## National Tsing Hua University - Introduction to AI and Big Data (1081, 10810EMIM500100, Master)
-
 ### Course Schedule
 
 
