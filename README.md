@@ -4,13 +4,11 @@
 
 ### Course Schedule
 
-- Week 14 (12/12)
-    - [Course01](https://github.com/matteosoo/AI_course/tree/master/course01)
-        - Environment install
-        - Linear regression
-- Week 15 (12/19)
-    - [Course02](https://github.com/matteosoo/AI_course/tree/master/course02)
-        - Fully Connected Neural Networks
+
 - Week 16 (12/26)
     - [Course03](https://github.com/matteosoo/AI_course/tree/master/course03)
         - Convolutional Neural Networks
+	- Final Project
+	- Final Project - dataset: https://drive.google.com/drive/folders/1wUOGiV9tBYFh5-yDNuOgVvxbgz1XUrYE?usp=sharing
+	- - TA_class03.ipynb (with MNIST datasets)
+    - [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/tw40210/AI_course/blob/master/classfier_final_project.ipynb)
