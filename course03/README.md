@@ -2,10 +2,6 @@
 
 - TA_class03.ipynb (with MNIST datasets)
     - [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/matteosoo/AI_course/blob/master/course03/TA_class03.ipynb)
-- TA_class03_2.ipynb (with Dogs-and-cats datasets)
-    - [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/matteosoo/AI_course/blob/master/course03/TA_class03_2.ipynb)
-    - Datasets link: https://drive.google.com/drive/folders/17tih4BezlICt_yNyT022jrBP7XYeGycj?usp=sharing
-    - If you want to use colab to run the program, you can add the folder under your Google drive. Note that to mount the drive before you run the code. 
 
 ## Deep Neural Networks, DNN
 ![](https://i.imgur.com/HccJFE1.png)
@@ -129,29 +125,6 @@ model.add(layers.Dense(64, activation='relu'))
 model.add(layers.Dense(10, activation='softmax'))
 ```
 
-## Binary classification with CNN
-### Dogs-vs-cats datasets
-- 共25000張
-- 前12500張是cats，後12500張是dogs
-- 整理data，擷取較小的數據集後..
-    - 貓狗各切半
-    - training 2000 張 (1000/1000)
-    - validation 1000 張 (500/500)
-    - testing 1000張 (500/500)
-- data preprocessing
-    - 將JPG轉為RGB像素network
-    ```python
-    # 將所有圖像乘以 1./255
-    train_datagen = ImageDataGenerator(rescale=1./255)
-    test_datagen = ImageDataGenerator(rescale=1./255)
-    ```
-    - 並將所有圖像都限制在 150 * 150
-- 丟入fit，training完以後？
-
-![](https://i.imgur.com/DFlBnfZ.png)
-
-#### data augmentation
-![](https://i.imgur.com/QyFZVhS.jpg)
 
 ## Reference
 - https://github.com/exeex/ml-course
